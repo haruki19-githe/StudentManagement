@@ -5,6 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.*;
 
+
 import java.util.List;
 
 @SpringBootApplication
@@ -19,7 +20,7 @@ public class StudentManagementApplication {
     }
 
     //nameとageをget
-    @GetMapping("/studentList")
+    @GetMapping("/student_coursesList")
     public List<Student> getStudentList() {
         return repository.search();
     }

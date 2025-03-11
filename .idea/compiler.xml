@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+<<<<<<< HEAD
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Gradle Imported" enabled="true">
@@ -11,6 +12,8 @@
         <module name="StudentManagement.main" />
       </profile>
     </annotationProcessing>
+=======
+>>>>>>> 5a342db3878ffd103ab70f1d41a18ffab0a3e37d
     <bytecodeTargetLevel target="21" />
   </component>
 </project>
